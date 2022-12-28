@@ -10,7 +10,7 @@ npm i gh-pages -D
 
 -   [ver punto 1](https://vitejs.dev/guide/static-deploy.html#github-pages)
 
-```js{7}
+```js
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
@@ -25,7 +25,7 @@ export default defineConfig({
 
 `"deploy": "gh-pages -d dist"`
 
-```json{5}
+```json
 "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -54,11 +54,10 @@ git push -u origin main
 
 ## npm run build && npm run deploy
 
-```sh
-npm run build
-```
+Estos comandos se repiten por cada actualización del proyecto:
 
 ```sh
+npm run build
 npm run deploy
 ```
 
