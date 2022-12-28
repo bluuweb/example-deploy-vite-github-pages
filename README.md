@@ -1,6 +1,8 @@
 # Deploy Vite + Github Pages
 
-## Install
+## Install gh-pages
+
+-   [más info](https://ull-esit-pl-1617.github.io/tareas-iniciales-Edu-Guille-Oscar-Sergio/Tutorial/gh-pages/gh-pages.html): El módulo gh-pages es un módulo de npm (Node Package Manager) que **permite automatizar la publicación de archivos en una rama gh-pages** de un repositorio de GitHub (o cualquier otra rama u otro servicio).
 
 ```sh
 npm i gh-pages -D
